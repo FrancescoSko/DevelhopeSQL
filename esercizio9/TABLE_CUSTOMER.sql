@@ -16,6 +16,3 @@ insert into CUSTOMER (NAME, DATE_OF_BIRTHDAY, FAVOURITE_MEAL_NAME)
 values ('Mattia', '2002-01-01', 'Pasta alla genovese')
 
 
-update CUSTOMER,
-set DATE_OF_BIRTHDAY = '2002-06-18'
-where NAME  = 'Mattia';
